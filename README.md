@@ -7,7 +7,7 @@
     - [Test Cases Scenario - DMoney Transaction APIs](#test-cases-scenario---dmoney-transaction-apis)
 - [How to Run This Project](#how-to-run-this-project)
     - [Using JMeter](#using-jmeter)
-    - [Using CLI](#using-cli)
+    - [Using CLI](#using-jmeter)
 - [Load and Stress Test Excel Report](#Load-and-stress-test-excel-report)
 - [Technology Used](#Technology-Used)
 - [Test Case Writing](#test-case-writing)
