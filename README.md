@@ -3,8 +3,8 @@
 ## **Content**
 - [Introduction](#introduction)
 - [Test Case Scenario](#Test-case-scenario)
-    - [Test Cases Scenario - Restful-Booker]
-    - [Test Cases Scenario - DMoney Transaction APIs]
+    - [Test Cases Scenario - Restful-Booker](#test-cases-scenario---restful-booker)
+    - [Test Cases Scenario - DMoney Transaction APIs](#test-cases-scenario---dmoney-transaction-apis)
 - [How to run the project](#How-to-run-the-project)
 - [Postman API Documentation](#postman-api-documentation)
 - [Technology Used](#Technology-Used)
