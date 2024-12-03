@@ -10,6 +10,8 @@
     - [Using CLI](#using-jmeter)
 - [Load and Stress Test Excel Report](#load-and-stress-test-excel-report)
 - [HTML Report Generate](#html-report-generate)
+    - [Generated HTML report for Load Test](#generated-html-report-for-load-test)
+    - [Generated HTML report for Stress Test](#generated-html-report-for-stress-test)
 
 
 ## **Introduction**
@@ -111,3 +113,8 @@ jmeter -n -t .\Dmoney.jmx -l .\Dmoney.jtl -e -o Reports
 
 
 ## **Load and Stress Test Excel Report**
+
+
+## **HTML Report Generate**
+### Generated HTML report for Load Test
+### Generated HTML report for Stress Test
