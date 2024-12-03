@@ -8,7 +8,7 @@
 - [How to Run This Project](#how-to-run-this-project)
     - [Using JMeter](#using-jmeter)
     - [Using CLI](#using-jmeter)
-- [Load and Stress Test Excel Report](#Load-and-stress-test-excel-report)
+- [Load and Stress Test Excel Report](#load-and-stress-test-excel-report)
 - [Technology Used](#Technology-Used)
 - [Test Case Writing](#test-case-writing)
 - [Bug Reporting](#bug-reporting)
