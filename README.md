@@ -86,3 +86,32 @@ and **Scenario:** **120,000 users** over a **12-hour** period log in, create a b
 ○ 5 agents perform deposits for 10 customers.
 ○ 5 customers send money to another 10 customers.
 ○ 5 customers make payments to 2 merchants.
+
+
+## How to run this project
+### Using JMeter:
+- clone this project
+   ```console
+      https://github.com/rashadkhan97/DMoney-REST-API-with-Newman-Report.git
+    ``` 
+- Open Apache Jmeter 
+- From Jmeter Click on Open then open the JMX file
+- Run the file
+
+### Using CLI Mode:
+- clone this project
+   ```console
+      https://github.com/rashadkhan97/DMoney-REST-API-with-Newman-Report.git
+    ``` 
+- **For Booking APIs JMeter Collection:
+  ```console
+   jmeter -n -t .\Booking.jmx -l .\Booking.jtl -e -o Reports
+  ```
+
+ - ***For Booking APIs JMeter Collection:**
+ ```console
+jmeter -n -t .\Dmoney.jmx -l .\Dmoney.jtl -e -o Reports
+ ```
+
+
+
