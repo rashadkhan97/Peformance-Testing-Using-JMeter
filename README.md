@@ -2,7 +2,7 @@
 
 ## **Content**
 - [Introduction](#introduction)
-- [Test Cases Scenario](#test-cases-scenario)
+- [Test Cases Scenario - Restful-Booker](#test-cases-scenario-restful-booker)
 - [API Endpoint Details](#api-endpoint-details)
 - [How to run the project](#How-to-run-the-project)
 - [Postman API Documentation](#postman-api-documentation)
