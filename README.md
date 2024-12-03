@@ -16,22 +16,23 @@
 
 
 ## **Introduction**
-In Performance testing test project - I have taken 2 API - 
+In the Performance testing test project - I have taken 2 APIs - 
 - **Restful-Booker:** A Books API for load testing and Stress testing
-- **Dmoney** A Website Transaction API for API Chainning (JMeter Collection). Also, I have taken CSV data files to run multiple APIs using Three Threads (Deposit, SendMoney and Payment) in Jmeter, For Transaction APIs .
+- **Dmoney** A Website Transaction API for API Chainning (JMeter Collection).
+Also, I have taken CSV data files to run multiple APIs using Three Threads (Deposit, SendMoney, and Payment) in Jmeter, For Transaction APIs.
 
 
 ## **Test Cases Scenario - Restful-Booker**
 Create a Collectio of APIs (JMeter Collection) of Login API, Create Booking API, and Search API HTTP requests
-## _**1. Add the following properties to the Header Controller:**_ 
+### _**1. Add the following properties to the Header Controller:**_ 
 ```console  
 Accept: */*
 ```
 
-## _**2. Login**_
+### _**2. Login**_
 
-### Request URL: [https://restful-booker.herokuapp.com/auth]
-### Pre-request Script:
+#### Request URL: **https://restful-booker.herokuapp.com/auth**
+#### Pre-request Script:
 ```console
 body:
     {
@@ -40,10 +41,10 @@ body:
     }
 ```
 
-## _**3.Create Booking**_
+### _**3.Create Booking**_
 
-### Request URL: [https://restful-booker.herokuapp.com/booking]
-### Pre-request Script:
+#### Request URL: **https://restful-booker.herokuapp.com/booking**
+#### Pre-request Script:
 ```console
 body:
    {
@@ -58,9 +59,9 @@ body:
 }
 ```
 
-## _**4.Search Booking**_
+### _**4.Search Booking**_
 
-### Request URL: [https://restful-booker.herokuapp.com/booking/bookingid]
+#### Request URL: **https://restful-booker.herokuapp.com/booking/bookingid**
 
 and **Scenario:** **120,000 users** over a **12-hour** period log in, create a booking, and search for the booking. 
 
