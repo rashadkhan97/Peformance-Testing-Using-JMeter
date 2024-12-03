@@ -30,7 +30,9 @@ Create a Collectio of APIs (JMeter Collection) of Login API, Create Booking API,
 
 ### Request URL: [https://restful-booker.herokuapp.com/auth]
 ### Pre-request Script:
-```console {
+```console
+{
 "username": "admin",
 "password": "password123"
-}```
+}
+```
