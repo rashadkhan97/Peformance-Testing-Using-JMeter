@@ -9,13 +9,7 @@
     - [Using JMeter](#using-jmeter)
     - [Using CLI](#using-jmeter)
 - [Load and Stress Test Excel Report](#load-and-stress-test-excel-report)
-- [Technology Used](#Technology-Used)
-- [Test Case Writing](#test-case-writing)
-- [Bug Reporting](#bug-reporting)
-- [Newman Report](#newman-report)
-    - [Report Summary](#report-summary)
-    - [Total Requests](#total-requests)
- 
+- [HTML Report Generate](#html-report-generate)
 
 
 ## **Introduction**
