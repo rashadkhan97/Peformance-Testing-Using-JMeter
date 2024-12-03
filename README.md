@@ -12,6 +12,7 @@
 - [HTML Report Generate](#html-report-generate)
     - [Generated HTML report for Load Test](#generated-html-report-for-load-test)
     - [Generated HTML report for Stress Test](#generated-html-report-for-stress-test)
+    - [Generated HTML report for DMoney JMeter Collection Test](#generated-html-report-for-dmoney-jmeter-collection-test)
 
 
 ## **Introduction**
@@ -117,4 +118,9 @@ jmeter -n -t .\Dmoney.jmx -l .\Dmoney.jtl -e -o Reports
 
 ## **HTML Report Generate**
 ### Generated HTML report for Load Test
+![image](https://github.com/user-attachments/assets/83f5c67b-4cfc-40d5-88f1-5806d71a5d0b)
+
 ### Generated HTML report for Stress Test
+
+### Generated HTML report for DMoney Jmeter Collection Test
+![image](https://github.com/user-attachments/assets/9bc9e72a-d853-49fd-8fec-db3d5fe11ecf)
