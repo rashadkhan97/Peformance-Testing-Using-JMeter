@@ -24,7 +24,9 @@ In Performance testing test project - I have taken 2 API -
 ## **Test Cases Scenario - Restful-Booker**
 Create a Collectio of APIs (JMeter Collection) of Login API, Create Booking API, and Search API HTTP requests
 ## _**1. Add the following properties to the Header Controller:**_ 
-```console  Accept: */* ```
+```console  
+Accept: */*
+```
 
 ## _**2. Login**_
 
@@ -37,3 +39,28 @@ body:
         "password": "password123"
     }
 ```
+
+## _**3.Create Booking**_
+
+### Request URL: [https://restful-booker.herokuapp.com/booking]
+### Pre-request Script:
+```console
+body:
+   {
+    "firstname": "Generate Random FirstName",
+    "lastname": "Generate Random LastName",
+    "totalprice": Generate random amount,
+    "depositpaid": true,
+    "bookingdates": {
+    "checkin": "2024-01-01",
+    "checkout": "2024-01-02"
+    }
+}
+```
+
+## _**4.Search Booking**_
+
+### Request URL: [https://restful-booker.herokuapp.com/booking/bookingid]
+
+and **Scenario:** **120,000 users** over a **12-hour** period log in, create a booking, and search for the booking. 
+
