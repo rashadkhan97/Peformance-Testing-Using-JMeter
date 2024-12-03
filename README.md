@@ -16,9 +16,21 @@
 
 
 ## **Introduction**
-In Performance testing test project - I have taken 2 api - 
+In Performance testing test project - I have taken 2 API - 
 - **Restful-Booker:** A Books API for load testing and Stress testing
-- **Dmoney** A Website Transaction API for API Chainning (JMeter Collection). Also i have taken CSV data files to run multiple APIs using Three Threads (Deposit, SendMoney and Payment) in Jmeter, For Transaction APIs .
+- **Dmoney** A Website Transaction API for API Chainning (JMeter Collection). Also, I have taken CSV data files to run multiple APIs using Three Threads (Deposit, SendMoney and Payment) in Jmeter, For Transaction APIs .
 
 
 ## **Test Cases Scenario - Restful-Booker**
+Create a Collectio of APIs (JMeter Collection) of Login API, Create Booking API, and Search API HTTP requests
+## _**1. Add the following properties to the Header Controller:**_ 
+```console  Accept: */* ```
+
+## _**2. Login**_
+
+### Request URL: [https://restful-booker.herokuapp.com/auth]
+### Pre-request Script:
+```console {
+"username": "admin",
+"password": "password123"
+}```
