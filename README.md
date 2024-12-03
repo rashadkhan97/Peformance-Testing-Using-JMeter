@@ -2,8 +2,9 @@
 
 ## **Content**
 - [Introduction](#introduction)
-- [Test Cases Scenario - Restful-Booker](#test-cases-scenario-restfulbooker)
-- [Test Cases Scenario - DMoney Transaction APIs](##test-cases-scenario-dmoney-transaction-apis)
+- [Test Case Scenario]
+    - [Test Cases Scenario - Restful-Booker](#test-cases-scenario-restfulbooker)
+    - [Test Cases Scenario - DMoney Transaction APIs](##test-cases-scenario-dmoney-transaction-apis)
 - [How to run the project](#How-to-run-the-project)
 - [Postman API Documentation](#postman-api-documentation)
 - [Technology Used](#Technology-Used)
@@ -22,6 +23,7 @@ In the Performance testing test project - I have taken 2 APIs -
 Also, I have taken CSV data files to run multiple APIs using Three Threads (Deposit, SendMoney, and Payment) in Jmeter, For Transaction APIs.
 
 
+## **Test Case Scenario**
 ## **Test Cases Scenario - Restful-Booker**
 Create a Collectio of APIs (JMeter Collection) of Login API, Create Booking API, and Search API HTTP requests
 ### _**1. Add the following properties to the Header Controller:**_ 
