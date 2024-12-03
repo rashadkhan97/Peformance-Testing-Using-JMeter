@@ -3,7 +3,7 @@
 ## **Content**
 - [Introduction](#introduction)
 - [Test Cases Scenario - Restful-Booker](#test-cases-scenario-restful-booker)
-- [API Endpoint Details](#api-endpoint-details)
+- [Test Cases Scenario - DMoney Transaction APIs](##test-cases-scenario-dmoney-transaction-apis)
 - [How to run the project](#How-to-run-the-project)
 - [Postman API Documentation](#postman-api-documentation)
 - [Technology Used](#Technology-Used)
@@ -65,3 +65,22 @@ body:
 
 and **Scenario:** **120,000 users** over a **12-hour** period log in, create a booking, and search for the booking. 
 
+
+## **Test Cases Scenario - DMoney Transaction APIs**
+
+### The Dmoney API collection: 
+1. Admin creates an Agent, 2 random Customers, and a Merchant.  
+   - **Admin email**: `admin@roadtocareer.net`  **Password**: `1234`
+2. Deposit some money from the SYSTEM account to the Agent.  
+   - **System account**: `SYSTEM`  **Range**: 10 TK to 10,000 TK
+3. Agent deposits money to one of the Customers.
+   - **Hint**: fromAc: `Agent`, toAc: `Customer`     
+4. Then, send money from one Customer to another Customer.
+   - **Hint**: fromAc: `Customer`, toAc: `Customer`  
+5. Make a payment from the second Customer to the Merchant.
+   - **Hint**: fromAc: `Customer`, toAc: `Merchant`
+
+### **Scenario**: 
+○ 5 agents perform deposits for 10 customers.
+○ 5 customers send money to another 10 customers.
+○ 5 customers make payments to 2 merchants.
