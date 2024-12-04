@@ -112,6 +112,10 @@ and **Scenario:** **120,000 users** over a **12-hour** period log in, create a b
 jmeter -n -t .\Dmoney.jmx -l .\Dmoney.jtl -e -o Reports
  ```
 
+## Technology Used
+- Jmeter: If you haven't already, [download and install Jmeter - ](https://jmeter.apache.org/download_jmeter.cgi)
+    - Search For **Binaries:** Then --> **apache-jmeter-5.6.3.zip**
+- Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
 
 ## **Load and Stress Test Excel Report**
 
