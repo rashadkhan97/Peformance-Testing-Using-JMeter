@@ -8,6 +8,7 @@
 - [How to Run This Project](#how-to-run-this-project)
     - [Using JMeter](#using-jmeter)
     - [Using CLI](#using-jmeter)
+- [Technology Used](#Technology-used)
 - [Load and Stress Test Excel Report](#load-and-stress-test-excel-report)
 - [HTML Report Generate](#html-report-generate)
     - [Generated HTML report for Load Test](#generated-html-report-for-load-test)
