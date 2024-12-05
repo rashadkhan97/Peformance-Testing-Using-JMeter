@@ -119,7 +119,7 @@ jmeter -n -t .\Dmoney.jmx -l .\Dmoney.jtl -e -o Reports
 - Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
 
 ## **Load and Stress Test Excel Report**
-For Load test and Stress test excel report checkout the link, you will be directed to google sheet and can see the results there. <br>
+For the Load test and Stress test Excel report checkout the link, you will be directed to Google sheet and can see the results there. <br>
  
 **Link:** [```**Load Test and Stress Test Excel Sheet Link**```](https://docs.google.com/spreadsheets/d/1WT4x_Ic_THJJa1oSaya3zCBSGHEHDrny/edit?usp=sharing&ouid=113748567292900710037&rtpof=true&sd=true)
  
@@ -132,6 +132,8 @@ For Load test and Stress test excel report checkout the link, you will be direct
 
 ### Generated HTML report for Stress Test
 ![image](https://github.com/user-attachments/assets/c2a569b1-63bf-435f-97cf-d2a8e94a76fc)
+
+Since this is a public server, while I was continuously doing stress testing, the server behaved unexpectedly, and I couldn't execute stress tests properly. Whenever I increase the number of users above 4000, it suddenly shows an error rate of 0%, and after 10000 users, it shows  an error rate of above 1%. So for me finding a bottleneck becomes very difficult and I need to consider the bottleneck point at 4000 users with an error rate of 0.03%. 
 
 
 ### Generated HTML report for DMoney Jmeter Collection Test
